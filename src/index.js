@@ -81,13 +81,7 @@ function returnCounter(number = 0) {
  */
 function returnArgumentsArray() {
 
-    var args = [];
-    
-    for (var i = 0; i < arguments.length; i++) {
-        args[i] = arguments[i];
-    }
-
-    return args;
+    return [...arguments];
 }
 
 /*
